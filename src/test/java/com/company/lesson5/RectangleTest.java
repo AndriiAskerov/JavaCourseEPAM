@@ -5,14 +5,14 @@ import org.junit.jupiter.api.*;
 import static org.junit.jupiter.api.Assertions.*;
 
 class RectangleTest {
-    int i = 0;
+    static int i = 0;
     Rectangle rectangle1;
     Rectangle rectangle2;
     Rectangle rectangle3;
     Rectangle rectangle4;
 
     @BeforeEach
-    void init() {
+    void setUp() {
         rectangle1 = new Rectangle(2, 2);
         rectangle2 = new Rectangle( 10);
         rectangle3 = new Rectangle(3);
@@ -22,7 +22,7 @@ class RectangleTest {
     }
 
     @AfterEach
-    void teardown() {
+    void tearDown() {
         System.out.println("End of test_" + i + ".\n");
     }
 
@@ -64,13 +64,13 @@ class RectangleTest {
 
     @Test
     void area() {
-        assertEquals(4, rectangle1.area(rectangle1.getSideA(), rectangle1.getSideB()), 0.01);
+        assertEquals(4, rectangle1.area(), 0.01);
         System.out.println("rectangle1: passes");
-        assertEquals(50, rectangle2.area(rectangle2.getSideA(), rectangle2.getSideB()), 0.01);
+        assertEquals(50, rectangle2.area(), 0.01);
         System.out.println("rectangle2: passes");
-        assertEquals(15, rectangle3.area(rectangle3.getSideA(), rectangle3.getSideB()), 0.01);
+        assertEquals(15, rectangle3.area(), 0.01);
         System.out.println("rectangle3: passes");
-        assertEquals(12, rectangle4.area(rectangle4.getSideA(), rectangle4.getSideB()), 0.01);
+        assertEquals(12, rectangle4.area(), 0.01);
         System.out.println("rectangle4: passes");
     }
 
