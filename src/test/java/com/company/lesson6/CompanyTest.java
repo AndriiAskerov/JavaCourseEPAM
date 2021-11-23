@@ -22,13 +22,15 @@ class CompanyTest {
     @BeforeEach
     void setUp() {
         p1 = new SalesPerson("Jamis", new BigDecimal(2045.85), 231);
-        p2 = new SalesPerson("Katty", new BigDecimal(3070.4), 76);
+        p2 = new SalesPerson("Katty", new BigDecimal(3070.4), 71);
         p3 = new SalesPerson("Louis", new BigDecimal(1621.15), 121);
-        m1 = new Manager("Salvador", new BigDecimal(2375), 231);
-        m2 = new Manager("Markus", new BigDecimal(3012.78), 76);
-        m3 = new Manager("Percival", new BigDecimal(1591.23), 121);
+        m1 = new Manager("Salvador", new BigDecimal(2375), 381);
+        m2 = new Manager("Markus", new BigDecimal(3012.78), 96);
+        m3 = new Manager("Percival", new BigDecimal(1591.23), 147);
         employees = new Company(p1, m1, p2, m2, p3, m3);
         bonus = new BigDecimal(400);
+        employees.giveEverybodyBonus(bonus);
+
         System.out.println("Test_" + ++i + ": ");
     }
 
@@ -39,7 +41,6 @@ class CompanyTest {
 
     @Test
     void giveEverybodyBonus() {
-        employees.giveEverybodyBonus(bonus);
         BigDecimal expectedP1 = bonus.multiply(new BigDecimal(3));
         BigDecimal expectedP2 = bonus.multiply(new BigDecimal(1));
         BigDecimal expectedP3 = bonus.multiply(new BigDecimal(2));
@@ -65,9 +66,14 @@ class CompanyTest {
 
     @Test
     void totalToPay() {
-        employees.giveEverybodyBonus(bonus);
         BigDecimal expected = p1.toPay().add(p2.toPay()).add(p3.toPay()).add(m1.toPay()).add(m2.toPay()).add(m3.toPay());
         assertEquals(expected, employees.totalToPay());
         System.out.println("employeesTotalToPay: passes (" + employees.totalToPay() + ")");
+    }
+
+    @Test
+    void nameMaxSalary() {
+        assertEquals("Salvador", employees.nameMaxSalary());
+        System.out.println("nameMaxSalary: passes (" + employees.nameMaxSalary() + ")");
     }
 }

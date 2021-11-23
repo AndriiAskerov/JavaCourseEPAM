@@ -25,4 +25,16 @@ public class Company {
         }
         return total;
     }
+
+    public String nameMaxSalary() {
+        BigDecimal highestSalary = new BigDecimal(0);
+        int index = -1;
+        for (int i = 0; i < staff.length-1; i++) {
+            if (highestSalary.compareTo(staff[i].toPay()) == -1) {
+                highestSalary = staff[i].toPay();
+                index = i;
+            }
+        }
+        return staff[index].lastName;
+    }
 }
