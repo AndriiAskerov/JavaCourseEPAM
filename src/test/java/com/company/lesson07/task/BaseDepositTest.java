@@ -29,7 +29,6 @@ class BaseDepositTest {
         expected2 = new BigDecimal(100);
         expected3 = new BigDecimal(628.89);
         expected3_1 = expected3.add(new BigDecimal(0.01));
-
     }
 
     @AfterEach

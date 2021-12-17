@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="17.0.1" class="java.beans.XMLDecoder">
+ <object class="java.util.ArrayList">
+  <void method="add">
+   <object class="com.company.finalTask.BLL.Country" id="Country0">
+    <void property="name">
+     <string>USA</string>
+    </void>
+    <void property="uniqueID">
+     <string>1364ab32</string>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="com.company.finalTask.BLL.Country" id="Country1">
+    <void property="name">
+     <string>Ukraine</string>
+    </void>
+    <void property="uniqueID">
+     <string>21166ff0</string>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="com.company.finalTask.BLL.Country" id="Country2">
+    <void property="name">
+     <string>Russia</string>
+    </void>
+    <void property="uniqueID">
+     <string>e5da4af7</string>
+    </void>
+   </object>
+  </void>
+ </object>
+<void class="com.company.finalTask.BLL.City" id="City0">
+ <void property="isCapital">
+  <string>yes</string>
+ </void>
+ <void property="name">
+  <string>Kyiv</string>
+ </void>
+ <void property="population">
+  <int>123412</int>
+ </void>
+ <void property="uniqueID">
+  <string>0683fa9c</string>
+ </void>
+ <void property="country">
+  <string>Ukraine</string>
+ </void>
+</void>
+<void class="com.company.finalTask.BLL.Country" id="Field0" method="getField">
+ <string>cities</string>
+ <void id="ArrayList0" method="get">
+  <object idref="Country1"/>
+  <void method="add">
+   <object class="com.company.finalTask.BLL.City">
+    <void property="country">
+     <string>Ukraine</string>
+    </void>
+    <void property="isCapital">
+     <string>no</string>
+    </void>
+    <void property="name">
+     <string>Odesa</string>
+    </void>
+    <void property="population">
+     <int>20000</int>
+    </void>
+    <void property="uniqueID">
+     <string>71845843</string>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object idref="City0"/>
+  </void>
+ </void>
+</void>
+<void idref="ArrayList0"/>
+<void class="com.company.finalTask.BLL.City" id="City1">
+ <void property="isCapital">
+  <string>no</string>
+ </void>
+ <void property="name">
+  <string>Los Angeles</string>
+ </void>
+ <void property="population">
+  <int>3251525</int>
+ </void>
+ <void property="uniqueID">
+  <string>080f68f5</string>
+ </void>
+ <void property="country">
+  <string>USA</string>
+ </void>
+</void>
+<void class="com.company.finalTask.BLL.City" id="City2">
+ <void property="isCapital">
+  <string>yes</string>
+ </void>
+ <void property="name">
+  <string>Moskow</string>
+ </void>
+ <void property="population">
+  <int>900000</int>
+ </void>
+ <void property="uniqueID">
+  <string>5d6d5e83</string>
+ </void>
+ <void property="country">
+  <string>Russia</string>
+ </void>
+</void>
+<void class="com.company.finalTask.BLL.Country" id="Field1" method="getField">
+ <string>cities</string>
+ <void id="ArrayList1" method="get">
+  <object idref="Country0"/>
+  <void method="add">
+   <object class="com.company.finalTask.BLL.City">
+    <void property="country">
+     <string>USA</string>
+    </void>
+    <void property="isCapital">
+     <string>yes</string>
+    </void>
+    <void property="name">
+     <string>Washington</string>
+    </void>
+    <void property="population">
+     <int>123123</int>
+    </void>
+    <void property="uniqueID">
+     <string>cdc905fe</string>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object idref="City1"/>
+  </void>
+ </void>
+</void>
+<void idref="ArrayList1"/>
+<void class="com.company.finalTask.BLL.Country" id="Field2" method="getField">
+ <string>cities</string>
+ <void id="ArrayList2" method="get">
+  <object idref="Country2"/>
+  <void method="add">
+   <object idref="City2"/>
+  </void>
+ </void>
+</void>
+<void idref="ArrayList2"/>
+</java>

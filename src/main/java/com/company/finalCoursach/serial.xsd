@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="java" type="javaType"/>
+  <xs:complexType name="voidType" mixed="true">
+    <xs:sequence>
+      <xs:element type="xs:string" name="string" minOccurs="0"/>
+      <xs:element type="objectType" name="object" minOccurs="0"/>
+      <xs:element name="int" minOccurs="0">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="90000"/>
+            <xs:enumeration value="800000"/>
+            <xs:enumeration value="500000"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element type="voidType" name="void" maxOccurs="unbounded" minOccurs="0"/>
+    </xs:sequence>
+    <xs:attribute type="xs:string" name="property" use="optional"/>
+    <xs:attribute type="xs:string" name="method" use="optional"/>
+    <xs:attribute type="xs:string" name="id" use="optional"/>
+    <xs:attribute type="xs:string" name="class" use="optional"/>
+    <xs:attribute type="xs:string" name="idref" use="optional"/>
+  </xs:complexType>
+  <xs:complexType name="objectType" mixed="true">
+    <xs:sequence>
+      <xs:element type="voidType" name="void" maxOccurs="unbounded" minOccurs="0"/>
+    </xs:sequence>
+    <xs:attribute type="xs:string" name="class" use="optional"/>
+    <xs:attribute type="xs:string" name="id" use="optional"/>
+    <xs:attribute type="xs:string" name="idref" use="optional"/>
+  </xs:complexType>
+  <xs:complexType name="javaType">
+    <xs:sequence>
+      <xs:element type="objectType" name="object"/>
+      <xs:element type="voidType" name="void" maxOccurs="unbounded" minOccurs="0"/>
+    </xs:sequence>
+    <xs:attribute type="xs:string" name="version"/>
+    <xs:attribute type="xs:string" name="class"/>
+  </xs:complexType>
+</xs:schema>
