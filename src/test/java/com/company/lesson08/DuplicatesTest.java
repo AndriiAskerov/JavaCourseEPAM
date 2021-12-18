@@ -14,7 +14,7 @@ class DuplicatesTest {
 
     @BeforeEach
     void setUp() throws FileNotFoundException {
-        d = new Duplicates("lesson08_duplicates.txt");
+        d = new Duplicates("resources/lesson08_duplicates.txt");
     }
 
     @AfterEach

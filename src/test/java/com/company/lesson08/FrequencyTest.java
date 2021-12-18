@@ -15,7 +15,7 @@ class FrequencyTest {
 
     @BeforeEach
     void setUp() throws FileNotFoundException {
-        f = new Frequency("lesson08_frequency.txt");
+        f = new Frequency("resources/lesson08_frequency.txt");
         System.out.println("Test_" + ++i + ": ");
     }
 

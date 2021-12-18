@@ -15,7 +15,7 @@ class LengthTest {
 
     @BeforeEach
     void setUp() throws FileNotFoundException {
-        l = new Length("lesson08_length.txt");
+        l = new Length("resources/lesson08_length.txt");
         System.out.println("Test_" + ++i + ": ");
     }
 
