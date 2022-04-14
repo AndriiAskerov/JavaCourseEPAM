@@ -1,0 +1,11 @@
+
+N	java:S106"9Replace this use of System.out or System.err by a logger.(é¤ÄÛ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(—÷ùÏ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(€ç­Ïıÿÿÿÿ
+@
+java:S1659"%Declare "counter" on a separate line.(‡‚áÊşÿÿÿÿ
+7
+java:S1643"Use a StringBuilder instead.(–ùÍôüÿÿÿÿ
+7
+java:S1643"Use a StringBuilder instead.(öÁÓÿÿÿÿÿ
+b	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(úö¢ı

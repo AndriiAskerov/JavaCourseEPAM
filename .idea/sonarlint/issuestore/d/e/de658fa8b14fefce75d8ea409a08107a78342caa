@@ -1,0 +1,9 @@
+
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ÎÓå°üÿÿÿÿ
+6
+java:S3626"Remove this redundant jump.(ÏÀ øÿÿÿÿ
+7
+java:S1643-"Use a StringBuilder instead.(Ş°‹œøÿÿÿÿ
+g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(©À¯™ùÿÿÿÿ
+M
+java:S2589"7Remove this expression which always evaluates to "true"(Ñ‰Š

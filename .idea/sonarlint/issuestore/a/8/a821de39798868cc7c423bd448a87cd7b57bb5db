@@ -1,0 +1,10 @@
+
+N	java:S106"9Replace this use of System.out or System.err by a logger.(’Á»¶
+N	java:S106"9Replace this use of System.out or System.err by a logger.(åÆ•¿
+S	java:S106"9Replace this use of System.out or System.err by a logger.(§ù¹Îùÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(“¥ý¡úÿÿÿÿ
+1
+java:S3626"Remove this redundant jump.(ù¢ÆŽ
+g
+java:S1192"QDefine a constant instead of duplicating this literal "         Array: " 4 times.(’Á»¶
+b	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(óƒ˜»

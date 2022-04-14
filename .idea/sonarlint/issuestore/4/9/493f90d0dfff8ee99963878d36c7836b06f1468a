@@ -1,0 +1,97 @@
+
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ÅŠ¤Ùøÿÿÿÿ
+<	java:S131&""Add a default case to this switch.(¾«œÛýÿÿÿÿ
+S	java:S106:"9Replace this use of System.out or System.err by a logger.(ªÏîýÿÿÿÿ
+S	java:S106A"9Replace this use of System.out or System.err by a logger.(ŽÉÉñúÿÿÿÿ
+S	java:S106D"9Replace this use of System.out or System.err by a logger.(úáÌ¹ùÿÿÿÿ
+S	java:S106H"9Replace this use of System.out or System.err by a logger.(ÅŠ¤Ùøÿÿÿÿ
+<	java:S131R""Add a default case to this switch.(¾«œÛýÿÿÿÿ
+S	java:S106e"9Replace this use of System.out or System.err by a logger.(¦˜Žßþÿÿÿÿ
+S	java:S106k"9Replace this use of System.out or System.err by a logger.(ÅŠ¤Ùøÿÿÿÿ
+<	java:S131u""Add a default case to this switch.(¾«œÛýÿÿÿÿ
+n
+java:S3776Š"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(âÔÂùÿÿÿÿ
+2
+java:S3626¯"Remove this redundant jump.(ûÁÝ…
+T	java:S106Ž"9Replace this use of System.out or System.err by a logger.(†ÉÅÃøÿÿÿÿ
+O	java:S106”"9Replace this use of System.out or System.err by a logger.(ëì‚È
+T	java:S106˜"9Replace this use of System.out or System.err by a logger.(º·žäüÿÿÿÿ
+T	java:S106›"9Replace this use of System.out or System.err by a logger.(È²¥Çþÿÿÿÿ
+C
+java:S1125£"'Remove the unnecessary boolean literal.(¥¼å™øÿÿÿÿ
+T	java:S106©"9Replace this use of System.out or System.err by a logger.(ßŽŽøÿÿÿÿÿ
+T	java:S106«"9Replace this use of System.out or System.err by a logger.(ƒ–³áûÿÿÿÿ
+T	java:S106®"9Replace this use of System.out or System.err by a logger.(úáÌ¹ùÿÿÿÿ
+N	java:S106µ"9Replace this use of System.out or System.err by a logger.(†äÂT
+T	java:S106½"9Replace this use of System.out or System.err by a logger.(ÓøÊ¾øÿÿÿÿ
+T	java:S106¿"9Replace this use of System.out or System.err by a logger.(úáÌ¹ùÿÿÿÿ
+O	java:S106Â"9Replace this use of System.out or System.err by a logger.(ú®·Ø
+N	java:S106È"9Replace this use of System.out or System.err by a logger.(†äÂT
+T	java:S106Ð"9Replace this use of System.out or System.err by a logger.(ÓøÊ¾øÿÿÿÿ
+T	java:S106Ò"9Replace this use of System.out or System.err by a logger.(úáÌ¹ùÿÿÿÿ
+T	java:S106Õ"9Replace this use of System.out or System.err by a logger.(Û¤‰¨úÿÿÿÿ
+O	java:S106Ú"9Replace this use of System.out or System.err by a logger.(Îñë
+T	java:S106Þ"9Replace this use of System.out or System.err by a logger.(íýä”úÿÿÿÿ
+T	java:S106á"9Replace this use of System.out or System.err by a logger.(Àºˆµþÿÿÿÿ
+T	java:S106é"9Replace this use of System.out or System.err by a logger.(±û«ÿÿÿÿÿ
+T	java:S106î"9Replace this use of System.out or System.err by a logger.(º·žäüÿÿÿÿ
+T	java:S106ò"9Replace this use of System.out or System.err by a logger.(Ãƒ°óþÿÿÿÿ
+N	java:S106ù"9Replace this use of System.out or System.err by a logger.(†äÂT
+T	java:S106ÿ"9Replace this use of System.out or System.err by a logger.(ëÌ…Ìþÿÿÿÿ
+h
+java:S2677‚"LUse or store the value returned from "readLine" instead of throwing it away.(£­—âÿÿÿÿÿ
+T	java:S106„"9Replace this use of System.out or System.err by a logger.(ÓøÊ¾øÿÿÿÿ
+T	java:S106†"9Replace this use of System.out or System.err by a logger.(úáÌ¹ùÿÿÿÿ
+T	java:S106‰"9Replace this use of System.out or System.err by a logger.(Û¤‰¨úÿÿÿÿ
+O	java:S106Ÿ"9Replace this use of System.out or System.err by a logger.(Éõ«
+O	java:S106¥"9Replace this use of System.out or System.err by a logger.(´â¹µ
+T	java:S106§"9Replace this use of System.out or System.err by a logger.(ƒ–³áûÿÿÿÿ
+T	java:S106­"9Replace this use of System.out or System.err by a logger.(ªÏîýÿÿÿÿ
+T	java:S106´"9Replace this use of System.out or System.err by a logger.(‰’ôŽøÿÿÿÿ
+T	java:S106¶"9Replace this use of System.out or System.err by a logger.(ŽÉÉñúÿÿÿÿ
+T	java:S106¸"9Replace this use of System.out or System.err by a logger.(úáÌ¹ùÿÿÿÿ
+T	java:S106»"9Replace this use of System.out or System.err by a logger.(Øÿ„×ýÿÿÿÿ
+T	java:S106Á"9Replace this use of System.out or System.err by a logger.(ªÏîýÿÿÿÿ
+T	java:S106Ê"9Replace this use of System.out or System.err by a logger.(Àºˆµþÿÿÿÿ
+T	java:S106Í"9Replace this use of System.out or System.err by a logger.(‘»Ãðúÿÿÿÿ
+T	java:S106Ï"9Replace this use of System.out or System.err by a logger.(ŽÉÉñúÿÿÿÿ
+T	java:S106Ò"9Replace this use of System.out or System.err by a logger.(Øÿ„×ýÿÿÿÿ
+T	java:S106Ø"9Replace this use of System.out or System.err by a logger.(ªÏîýÿÿÿÿ
+T	java:S106Þ"9Replace this use of System.out or System.err by a logger.(™˜ç¢ýÿÿÿÿ
+h
+java:S2677á"LUse or store the value returned from "readLine" instead of throwing it away.(£­—âÿÿÿÿÿ
+T	java:S106ã"9Replace this use of System.out or System.err by a logger.(ŽÉÉñúÿÿÿÿ
+T	java:S106å"9Replace this use of System.out or System.err by a logger.(úáÌ¹ùÿÿÿÿ
+O	java:S106è"9Replace this use of System.out or System.err by a logger.(¢ÿðá
+T	java:S106û"9Replace this use of System.out or System.err by a logger.(úýèõüÿÿÿÿ
+T	java:S106€"9Replace this use of System.out or System.err by a logger.(“©õŸþÿÿÿÿ
+h
+java:S2677ƒ"LUse or store the value returned from "readLine" instead of throwing it away.(£­—âÿÿÿÿÿ
+T	java:S106ˆ"9Replace this use of System.out or System.err by a logger.(Áæ„úÿÿÿÿ
+h
+java:S2677‹"LUse or store the value returned from "readLine" instead of throwing it away.(£­—âÿÿÿÿÿ
+O	java:S106"9Replace this use of System.out or System.err by a logger.(à‘›’
+T	java:S106’"9Replace this use of System.out or System.err by a logger.(çŠÝùÿÿÿÿ
+W
+java:S1192µ"ADefine a constant instead of duplicating this text block 3 times.(†äÂT
+
+java:S1192A"tDefine a constant instead of duplicating this literal "INVALID INPUT: there is no country with such index!" 4 times.(ŽÉÉñúÿÿÿÿ
+]
+java:S1192ÿ"ADefine a constant instead of duplicating this text block 4 times.(ëÌ…Ìþÿÿÿÿ
+¤
+java:S1192D"ˆDefine a constant instead of duplicating this literal "INVALID INPUT: incorrect input value! Please, enter only integer values" 7 times.(úáÌ¹ùÿÿÿÿ
+\
+java:S1192:"ADefine a constant instead of duplicating this text block 4 times.(ªÏîýÿÿÿÿ
+
+java:S1192½"qDefine a constant instead of duplicating this literal "INVALID INPUT: there is no city with such index!" 3 times.(ÓøÊ¾øÿÿÿÿ
+U
+java:S1155Ž">Use isEmpty() to check whether the collection is empty or not.(×ÄÿÎ
+U
+java:S1155í">Use isEmpty() to check whether the collection is empty or not.(¢›²®
+8
+java:S1643’"Use a StringBuilder instead.(Ü•ÒÒùÿÿÿÿ
+2
+java:S1643ñ"Use a StringBuilder instead.(“«¾
+h
+java:S1104"RMake reader a static final constant or non-public and provide accessors if needed.(ÌžŸ¯
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ä›ª…
