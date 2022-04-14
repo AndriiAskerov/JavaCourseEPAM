@@ -91,13 +91,13 @@
      <string>Ukraine</string>
     </void>
     <void property="id">
-     <string>d6ac25</string>
+     <string>b5dc5c</string>
     </void>
     <void property="name">
-     <string>Odessa</string>
+     <string>Kyiv</string>
     </void>
     <void property="population">
-     <int>800000</int>
+     <int>500000</int>
     </void>
    </object>
   </void>
@@ -107,13 +107,13 @@
      <string>Ukraine</string>
     </void>
     <void property="id">
-     <string>b5dc5c</string>
+     <string>d6ac25</string>
     </void>
     <void property="name">
-     <string>Kyiv</string>
+     <string>Odessa</string>
     </void>
     <void property="population">
-     <int>500000</int>
+     <int>800000</int>
     </void>
    </object>
   </void>
