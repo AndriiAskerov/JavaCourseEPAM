@@ -1,0 +1,149 @@
+Ranged Ops Integer Set
+The purpose of this exercise is to train you in implementing Collections.
+
+Estimated workload of this exercise is 60 min.
+
+Description
+Please, proceed to RangedOpsIntegerSet and implement its methods.
+
+RangedOpsIntegerSet is a Set of Integer. It has two additional methods:
+
+boolean add(int fromInclusive, int toExclusive)
+boolean remove(int fromInclusive, int toExclusive)
+These methods are for adding/removing ranges of values.
+
+You need to implement following methods:
+
+add (single-value) - adds a single value into the set
+remove (single-value) - removes a single value from the set
+add (ranged) - adds a range of values into the set (first argument - inclusive, last argument - exclusive). Return true if any of range values were actually added.
+remove(ranged)- removes a range of values from the list (first argument - inclusive, last argument - exclusive). Return true if any of range values were actually removed.
+iterator - iterates over elements of the set in natural order.
+size - returns the number of current queue elements
+Examples
+RangedOpsIntegerSet set = new RangedOpsIntegerSet();
+set.add(1, 5);
+for(Integer el : set){
+    System.out.println(el);
+}
+1
+2
+3
+4
+RangedOpsIntegerSet set = new RangedOpsIntegerSet();
+set.add(1, 5);
+set.add(9, 11);
+for(Integer el : set){
+    System.out.println(el);
+}
+1
+2
+3
+4
+9
+10
+RangedOpsIntegerSet set = new RangedOpsIntegerSet();
+set.add(1, 15);
+set.remove(3, 12);
+for(Integer el : set){
+    System.out.println(el);
+}
+1
+2
+12
+13
+14
+***********************************************************************************
+Int String Capped Map
+The purpose of this exercise is to train you in implementing Collections.
+
+Estimated workload of this exercise is 180 min.
+
+Description
+Please, proceed to IntStringCappedMap and implement its methods.
+
+IntStringCappedMap is a Map with Integer keys and String values.
+"Capped" means that this map has a capacity property.
+Total length of all String values in a map must not exceed its capacity.
+If a new added value would lead to such overflowing, the map must evict its current entries until adding new value would not exceed its capacity.
+Eviction must follow the order of adding values to the map - the oldest value must be evicted first.
+Note that if length of the new String value is more than capacity, map must throw an IllegalArgumentException and evict no entry.
+
+You need to implement following methods:
+
+entrySet - the method is partially implemented.
+It returns an AbstractSet and you must only provide implementations for its iterator next and hasNext methods.
+get - return a value by its key.
+put - set a value by a given key.
+If it leads to exceeding capacity, be sure to evict as many of the oldest elements as needed.
+remove - removes a value by key.
+size - returns number of map entries.
+Example
+IntStringCappedMap map = new IntStringCappedMap(25);
+map.put(5, "Five");
+map.put(6, "Six");
+map.put(7, "Seven");
+map.put(8, "Eight");
+map.put(12, "Twelve");
+map.put(9, "Nine");
+map.put(1, "One");
+
+System.out.println(new TreeMap<>(map)); 
+//{1=One, 7=Seven, 8=Eight, 9=Nine, 12=Twelve}
+
+*****************************************************************************************
+Special collections
+Description
+Implement special collections by given specifications
+
+Pair String List
+Implement a list of Strings that adding/removing elements by pairs.
+
+Each time you add a string to the list, you should add it twice, so the list would contain a pair of entries of that string.
+
+Each time you remove a string, you should remove a pair of it.
+
+List should keep pairs together: if you add a string by index ensure it will not break a pair. Put pair of new element after it.
+
+What should be covered in your implementation:
+
+adding
+adding by index
+removing of object
+removing by index
+getting by index
+setting by index
+adding of a collection
+adding of a collection by index
+iterator (removing via iterator is not required)
+Sorted By Absolute Value Integer Set
+Implement a class of Integer sorted set. Values in set should be sorted by their absolute values in ascending order.
+
+What should be covered in your implementation:
+
+adding element
+removing element
+searching element
+adding of a collection
+iterator (removing via iterator is not required)
+Median Queue
+Implement a queue of Integer that returns its median element.
+Median here is an element which has equal amounts of lesser and greater elements. Median represents middle value of the collection.
+For instance, if you put 1, 2, 3, 4, 5 to the queue and then pull element of it, queue will return 3.
+If there are even amount of elements, there are two possible values to return. Return lesser one.
+More examples:
+
+1, 10, 100 → 10
+100, 10, 1 → 10
+100, 1, 10 → 10
+1, 987, 2 → 2
+1, 987, 2, 3 → 2
+1, 987, 4, 2, 3 → 3
+1, 2, 3, 3, 3 → 3
+You need to implement following methods:
+
+offer - push element to the queue
+poll - pull element out of the queue
+peek - get element on the top of the queue (just get, no pulling out)
+iterator - iterate over elements of the queue (no need to keep order)
+size - just amount of current queue elements
