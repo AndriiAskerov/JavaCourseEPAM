@@ -18,7 +18,10 @@ Package name: practice4
 Class names: Part2, Spam
 ———————————————————————————————-
 
-Create Spam class that accepts an array of messages and a coherent array of time intervals in milliseconds in its constructor, and simultaneously prints out the corresponding messages in the given time intervals. On Enter click, the application should terminate its work (this functionality should be placed in the Spam.main method).
+Create Spam class that accepts an array of messages and a coherent array of time intervals
+in milliseconds in its constructor, and simultaneously prints out the corresponding messages
+in the given time intervals. On Enter click, the application should terminate its
+work (this functionality should be placed in the Spam.main method).
 
 Recommended structure of the Spam class:
 ————————————————

@@ -12,6 +12,7 @@ public class ListImplementer implements List {
     ListImplementer() {
         first = null;
         last = null;
+        size = 0;
     }
 
     static class Link {

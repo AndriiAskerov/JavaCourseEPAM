@@ -1,9 +1,9 @@
-package ua.advanced.lesson01.task03;
+package ua.advanced.lesson03.task01;
 
 import java.util.Iterator;
 import java.util.TreeSet;
 
-public class RangedOpsIntegerSet extends TreeSet<Integer> {
+public class RangedOpsIntegerSet01 extends TreeSet<Integer> {
 
     public boolean add(int start, int end) {
         boolean result = true;
@@ -33,7 +33,7 @@ public class RangedOpsIntegerSet extends TreeSet<Integer> {
     }
 
     public static void main(String[] args) {
-        RangedOpsIntegerSet set = new RangedOpsIntegerSet();
+        RangedOpsIntegerSet01 set = new RangedOpsIntegerSet01();
         set.add(1, 5);
         for (Integer num : set) {
             System.out.print(num + ",");

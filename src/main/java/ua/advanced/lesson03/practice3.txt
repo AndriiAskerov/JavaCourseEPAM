@@ -100,13 +100,10 @@ Pair String List
 Implement a list of Strings that adding/removing elements by pairs.
 
 Each time you add a string to the list, you should add it twice, so the list would contain a pair of entries of that string.
-
 Each time you remove a string, you should remove a pair of it.
-
-List should keep pairs together: if you add a string by index ensure it will not break a pair. Put pair of new element after it.
+List should keep pairs together: if you add a string by index ensure it will not break a pair. Put a pair of new element after it.
 
 What should be covered in your implementation:
-
 adding
 adding by index
 removing of object
@@ -116,16 +113,19 @@ setting by index
 adding of a collection
 adding of a collection by index
 iterator (removing via iterator is not required)
+
+
 Sorted By Absolute Value Integer Set
 Implement a class of Integer sorted set. Values in set should be sorted by their absolute values in ascending order.
 
 What should be covered in your implementation:
-
 adding element
 removing element
 searching element
 adding of a collection
 iterator (removing via iterator is not required)
+
+
 Median Queue
 Implement a queue of Integer that returns its median element.
 Median here is an element which has equal amounts of lesser and greater elements. Median represents middle value of the collection.
