@@ -133,3 +133,18 @@ _
 /src/main/java/ua/basics/lesson08/Frequency.java,2\8\286d507bc7a3a99d0d55f56a3ed2a79fb021d546
 n
 >src/main/java/ua/advanced/lesson02/task3/StackImplementer.java,1\0\10198dd5262071b0d55ea05da115152357b09051
+9
+	README.md,8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
+e
+5src/main/java/ua/advanced/lesson05/task3/Airport.java,a/1/a17e327adddfb33123caf747ed4ca8692babba00
+k
+;src/main/java/ua/advanced/lesson05/task2/StockExchange.java,2/c/2c44b858afea8581a860c436d945edb4489a4cda
+`
+0src/main/java/ua/advanced/lesson05/practice5.txt,d/c/dc79165c19849835049e4271aa4905bab5edc4a2
+:
+
+.gitignore,a/5/a5cc2925ca8258af241be7e5b0381edf30266302
+S
+#src/main/java/ua/advanced/Main.java,f/3/f3946d8812449e5e05e998fe9f791f6e3ec15a29
+e
+5src/main/java/ua/advanced/lesson05/task1/Auction.java,7/2/7228f9ada7a6dfa7a15bb8aad03c307bb19b09dd
