@@ -91,7 +91,7 @@ public class Auction {
 
     }
 
-    private static int getRandomInt(int fromInclusive, int toExclusive) {
+    public static int getRandomInt(int fromInclusive, int toExclusive) {
         return (int) (fromInclusive + (Math.random() * (toExclusive - fromInclusive)));
     }
 
