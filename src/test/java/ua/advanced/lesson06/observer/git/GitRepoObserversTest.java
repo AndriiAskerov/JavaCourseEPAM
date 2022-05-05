@@ -23,39 +23,40 @@ class GitRepoObserversTest {
         Repository repo = GitRepoObservers.newRepository();
 
         WebHook commitMasterWebHook = GitRepoObservers.commitToBranchWebHook("master");
-        WebHook commitReadmeWebHook = GitRepoObservers.commitToBranchWebHook("dev-readme");
+        WebHook commitReadmeWebHook = GitRepoObservers.commitToBranchWebHook("development");
         WebHook mergeMasterBranch = GitRepoObservers.mergeToBranchWebHook("master");
 
         repo.addWebHook(mergeMasterBranch);
         repo.addWebHook(commitMasterWebHook);
         repo.addWebHook(commitReadmeWebHook);
 
-        repo.commit("dev-readme", "Johnny Mnemonic","as");
-        repo.commit("dev-readme", "Johnny Mnemonic","a");
-        repo.commit("dev-readme", "Johnny Mnemonic","s");
+        repo.commit("development", "Serj Verhust","Added task01");
+        repo.commit("development", "John Silver","rework method 'addFirst()' in task01.LinkedList");
+        repo.commit("development", "Serj Verhust","Added tests to task01");
 
-        repo.merge("dev-readme", "master");
+        repo.merge("development", "master");
 
         assertEquals("[]",
                 commitMasterWebHook.eventsLog().toString());
         assertEquals("[" +
-                        "Event" +
-                            "[Commit, dev-readme, " +
-                            "[Commit" + "[Johnny Mnemonic, as]]], " +
-                        "Event" +
-                            "[Commit, dev-readme, " +
-                            "[Commit" + "[Johnny Mnemonic, a]]], " +
-                        "Event" +
-                            "[Commit, dev-readme, " +
-                            "[Commit" + "[Johnny Mnemonic, s]]]]",
+                        "Event[" +
+                            "Commit, development, [" +
+                            "Commit" + "[Serj Verhust, Added task01]]], " +
+                        "Event[" +
+                            "Commit, development, [" +
+                            "Commit" + "[John Silver, rework method 'addFirst()' in task01.LinkedList]]], " +
+                        "Event[" +
+                            "Commit, development, [" +
+                            "Commit[Serj Verhust, Added tests to task01]]]]",
                 commitReadmeWebHook.eventsLog().toString()
         );
         assertEquals(
-                "[Event" +
-                            "[Merge, master, " +
-                            "[Commit" + "[Johnny Mnemonic, as], " +
-                             "Commit" + "[Johnny Mnemonic, a], " +
-                             "Commit" + "[Johnny Mnemonic, s]]]]",
+                "[" +
+                        "Event[" +
+                            "Merge, master, [" +
+                            "Commit" + "[Serj Verhust, Added task01], " +
+                            "Commit" + "[John Silver, rework method 'addFirst()' in task01.LinkedList], " +
+                            "Commit" + "[Serj Verhust, Added tests to task01]]]]",
                 mergeMasterBranch.eventsLog().toString()
         );
 
