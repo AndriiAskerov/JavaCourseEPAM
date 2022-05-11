@@ -1,0 +1,57 @@
+C:\Users\andrew\.jdks\corretto-17.0.3\bin\java.exe "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2022.1\lib\idea_rt.jar=60575:C:\Program Files\JetBrains\IntelliJ IDEA 2022.1\bin" -Dfile.encoding=UTF-8 -classpath C:\Users\andrew\IdeaProjects\JavaCourseEPAM\target\classes;C:\Users\andrew\.m2\repository\mysql\mysql-connector-java\5.1.46\mysql-connector-java-5.1.46.jar ua.advanced.lesson07.Main
+Connection is established!
+Statement is created!
+---
+- Task01 (new movies >= '2021'):
+01. Movie{id=1, title='title001', release_date=2021-12-01, country='Ukraine'}
+02. Movie{id=3, title='title003', release_date=2022-04-11, country='France'}
+03. Movie{id=6, title='title006', release_date=2022-07-07, country='Germany'}
+04. Movie{id=7, title='title007', release_date=2021-09-19, country='England'}
+05. Movie{id=9, title='title009', release_date=2022-03-27, country='England'}
+
+- Task02 (actors from movie):
+01. Person{id=1, name='Dovjenko O.', birthdate=1992-06-11}
+02. Person{id=2, name='Statham J.', birthdate=1987-11-05}
+03. Person{id=6, name='Johnson B.', birthdate=1981-12-14}
+
+- Task03 (actors who plays in movies more than 'N' times):
+01. Person{id=2, name='Statham J.', birthdate=1987-11-05}
+02. Person{id=4, name='Boyko S.', birthdate=1998-04-02}
+03. Person{id=6, name='Johnson B.', birthdate=1981-12-14}
+
+- Task04 (actors who are directors):
+01. Person{id=1, name='Dovjenko O.', birthdate=1992-06-11}
+
+- Task05 (delete movies that are 'N' years old):
+List of movies before deleting:
+01. Movie{id=1, title='title001', release_date=2021-12-01, country='Ukraine'}
+02. Movie{id=2, title='title002', release_date=2019-07-25, country='USA'}
+03. Movie{id=3, title='title003', release_date=2022-04-11, country='France'}
+04. Movie{id=4, title='title004', release_date=2014-03-29, country='Ukraine'}
+05. Movie{id=5, title='title005', release_date=2018-07-15, country='Canada'}
+06. Movie{id=6, title='title006', release_date=2022-07-07, country='Germany'}
+07. Movie{id=7, title='title007', release_date=2021-09-19, country='England'}
+08. Movie{id=8, title='title008', release_date=2018-10-04, country='Australia'}
+09. Movie{id=9, title='title009', release_date=2022-03-27, country='England'}
+10. Movie{id=28, title='title901', release_date=1240-11-01, country='null'}
+11. Movie{id=29, title='title902', release_date=1020-03-27, country='null'}
+12. Movie{id=30, title='title903', release_date=1181-11-13, country='null'}
+13. Movie{id=31, title='title904', release_date=1473-07-04, country='null'}
+
+
+List of movies after deleting:
+01. Movie{id=1, title='title001', release_date=2021-12-01, country='Ukraine'}
+02. Movie{id=2, title='title002', release_date=2019-07-25, country='USA'}
+03. Movie{id=3, title='title003', release_date=2022-04-11, country='France'}
+04. Movie{id=4, title='title004', release_date=2014-03-29, country='Ukraine'}
+05. Movie{id=5, title='title005', release_date=2018-07-15, country='Canada'}
+06. Movie{id=6, title='title006', release_date=2022-07-07, country='Germany'}
+07. Movie{id=7, title='title007', release_date=2021-09-19, country='England'}
+08. Movie{id=8, title='title008', release_date=2018-10-04, country='Australia'}
+09. Movie{id=9, title='title009', release_date=2022-03-27, country='England'}
+
+---
+Statement is closed!
+Connection is closed!
+
+Process finished with exit code 0
